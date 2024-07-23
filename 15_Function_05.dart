@@ -12,9 +12,3 @@ int addList(List list){
   }
   return sum;
 }
-
-int aaa(){
-
-  return 12;
-  asas;
-}
