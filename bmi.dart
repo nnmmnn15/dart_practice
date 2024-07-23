@@ -32,8 +32,8 @@ class Bmi {
     return weight/(height*height);
   }
 
-  String bmiCalcProperty(){
+  double bmiCalcProperty(){
     height = height * 0.01;
-    return weight/(height*height).toStringAsFixed(1);
+    return weight/(height*height);
   }
 }
