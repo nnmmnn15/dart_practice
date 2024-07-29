@@ -30,6 +30,9 @@ main(){
   // apple 2개와 watermelon 1개의 합계는?
   print(fruitsPrice['apple']! * 2 + fruitsPrice['watermelon']!);
 
+  fruitsPrice['apple'] = 500;
+  print(fruitsPrice['apple']);
+
   // Map을 선언하고 데이터 넣기
   Map carMakers = {};
   carMakers.addAll({'hyundai' : '현대자동차', 'kia' : '기아자동차'});
