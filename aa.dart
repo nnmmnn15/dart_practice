@@ -1,4 +1,6 @@
 main (){
-  int a =4;
-  a=3;
+  String a = 'abc';
+  String b = 'def';
+  String sum;
+  sum = a + b;
 }
